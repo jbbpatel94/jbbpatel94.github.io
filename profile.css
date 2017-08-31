@@ -1,0 +1,46 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+div.outer {
+  background-image: url(https://www.techworm.net/wp-content/uploads/2016/04/programmer-coding-scripts-automation-hacking-702x336.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+div.inner {
+  background-color: rgba(112, 112, 109, 0.7);
+  width: 100%;
+  height: auto;
+  min-height:300px;
+  height:100%;
+}
+li{
+  list-style:none;
+  display:inline-block;
+  padding:15px;
+  border:1px solid #b9b0b0;
+  border-radius:5px;
+  margin: 5px
+}
+i.fa{
+  font-size:33px;
+}
+div ul{
+  margin: 0;
+  padding:0;
+  position:absolute;
+  top:18%;
+  left:28%;
+  text-align:center;
+}
+li:hover{
+  background:white;
+}
+@media only screen and (max-width:482px){
+  div ul{
+    left:15%;
+  }
+}
